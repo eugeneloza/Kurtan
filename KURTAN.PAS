@@ -548,8 +548,6 @@ var map,StartMap:^allMaps;
 {------------------------------------------------------------------------}
 procedure LoadStartMap;
 begin
- writeln(f1);
- sleep(10000);
  reset(f1);
  read(f1,StartMap^);
  close(f1);
